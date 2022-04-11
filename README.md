@@ -1,184 +1,152 @@
-# crmaaa
+# CRM Art and Architectural Argumentation Conceptual Model Specification
 
-CRM Art and Architectural
-Argumentation Conceptual Model
-Specification
-Document Type : Specification
-Author : George Bruseker (Takin.solutions)
-Version : 0.9
-Filename : CRM_AAA_Spec_v.0.9.pdf
-Report Date : 2/2/21
-Project Reference : Sustainable Art and Architectural Data Reuse in Teaching and Research
-Table of Contents
-Table of Contents 1
-Introduction 2
-Hierarchical Presentation 4
-Class Hierarchy 4
-Property Hierarchy 6
-Classes 8
-Properties 25
-1
-Introduction
-This document represents the formal specification for an unofficial formal extension of the
-CIDOC CRM designed for application in the area of art and architectural historical research. The
-scope of this extension is to support art and architectural research in the sense of the study of
-primary and secondary documents for the derivation, manually and programmatically, of
-historically contextual facts that can be used to support reflection and structured argumentation.
-The core expressivity that this extension adds is the ability to accurately express historically
-bound, contextual social facts relative to the agents holding those beliefs and the temporal
-period for which those beliefs were valid. The extension enables this expressivity by introducing
-the notions of institutional fact and speech act as core modelling concepts. Institutional facts are
-collective beliefs held by groups for period of time about the world. Such collective beliefs while
-subjectively grounded are epistemically objective for the community over which they hold sway.
-Introducing the notion of institutional fact allows for a specialization of the core CRM to be able
-to express these social realities (expressed in simple, aoristic binary properties in the core
-CRM) in their full social complexity as temporally and socially bound beliefs. The concomitant
-core notion introduced in this extension is the idea of Speech Act in the Austinian and Serlean
-sense. A speech act is a kind of intentional event (E7 Activity of CRM base) in which agents
-purposefully apply a rule and perform a set ritual in order to bring about a new social state or
-institutional fact. Introducing the notion of speech act provides both a high level ontological
-category and set of relations for describing the kinds of events which are the cause of
-institutional facts as well as providing a starting point for the analysis of the non truth
-propositional use of information objects. In speech acts, information objects (e.g. phrases and
-formulae) are deployed not to convey states of the world but to generate states of the world.
-The subject of historical investigation is not simply the bare facts available to an empirical
-analysis of the physical world but involves an investigation of the social activities which
-generated contexts of understanding and belief that may differ significantly over times and
-peoples. Materializing the social relations represented in CRM base as institutional facts gives
-them a better ontological position and offer a better epistemological approach to their study by
-recognizing social, negotiated facts as objective realities in themselves and treating them as first
-class entities of study. This involves a departure from the aims of CRM base which is guided by
-an information integration functionality which favours the representation of the latest state of
-knowledge in a presentist perspective. In the study of the history of art and architecture it is in
-no small part the different non-coinciding facts held or supported by different entities over
-different times which are of interest. The materialization of institutional facts supports the
-information management functionality which guides this informal extension of the CIDOC CRM
-which aims to support historians in representing the positive knowledge they can gather from
-primary and secondary evidence of both past simple and institutional facts for the purposes of
-proposing hypotheses and analyses of texts, authors, periods, works and so on. In this regard,
-CRMAnA also provides an initial limited set of classes for describing traditional and digital
-methods of deriving facts from texts, in order to support the linking of contemporary research
-processes as provenance nodes for the different data points of simple and institutional facts
-which they generate in the course of their research.
-2
+Document Type: Specification<br />
+Authors: George Bruseker (Takin.solutions)<br />
+Version: 0.9<br />
+Filename: CRM_AAA_Spec_v.0.9.pdf<br />
+Report Date: 2/2/21<br />
+Project Reference: Sustainable Art and Architectural Data Reuse in Teaching and Research<br />
+
+##Table of Contents##
+
+Introduction   
+Hierarchical Presentation    
+Class Hierarchy    
+Property Hierarchy    
+Classes    
+Properties    
+
+
+##Introduction##
+
+This document represents the formal specification for an unofficial formal extension of the CIDOC CRM designed for application in the area of art and architectural historical research. The scope of this extension is to support art and architectural research in the sense of the study of primary and secondary documents for the derivation, manually and programmatically, of historically contextual facts that can be used to support reflection and structured argumentation. The core expressivity that this extension adds is the ability to accurately express historically bound, contextual social facts relative to the agents holding those beliefs and the temporal period for which those beliefs were valid. The extension enables this expressivity by introducing the notions of institutional fact and speech act as core modelling concepts. Institutional facts are collective beliefs held by groups for period of time about the world. Such collective beliefs while subjectively grounded are epistemically objective for the community over which they hold sway. Introducing the notion of institutional fact allows for a specialization of the core CRM to be able to express these social realities (expressed in simple, aoristic binary properties in the core CRM) in their full social complexity as temporally and socially bound beliefs. The concomitant core notion introduced in this extension is the idea of Speech Act in the Austinian and Serlean sense. A speech act is a kind of intentional event (E7 Activity of CRM base) in which agents purposefully apply a rule and perform a set ritual in order to bring about a new social state or institutional fact. Introducing the notion of speech act provides both a high level ontological category and set of relations for describing the kinds of events which are the cause of institutional facts as well as providing a starting point for the analysis of the non truth propositional use of information objects. In speech acts, information objects (e.g. phrases and formulae) are deployed not to convey states of the world but to generate states of the world. The subject of historical investigation is not simply the bare facts available to an empirical analysis of the physical world but involves an investigation of the social activities which generated contexts of understanding and belief that may differ significantly over times and peoples. Materializing the social relations represented in CRM base as institutional facts gives them a better ontological position and offer a better epistemological approach to their study by recognizing social, negotiated facts as objective realities in themselves and treating them as first class entities of study. This involves a departure from the aims of CRM base which is guided by an information integration functionality which favours the representation of the latest state of knowledge in a presentist perspective. In the study of the history of art and architecture it is in no small part the different non-coinciding facts held or supported by different entities over different times which are of interest. The materialization of institutional facts supports the information management functionality which guides this informal extension of the CIDOC CRM which aims to support historians in representing the positive knowledge they can gather from primary and secondary evidence of both past simple and institutional facts for the purposes of proposing hypotheses and analyses of texts, authors, periods, works and so on. In this regard, CRMAnA also provides an initial limited set of classes for describing traditional and digital methods of deriving facts from texts, in order to support the linking of contemporary research processes as provenance nodes for the different data points of simple and institutional facts which they generate in the course of their research.
+
 This unofficial extension of the CIDOC CRM is formulated in relation to:
+
 CIDOC CRM v.7.01
 CIDOC CRM Inf v.0.10.1
-CIDOC CRM Sci v. 1.2.8
-The specification consists of the a set of declarations for formalized classes and properties that
-extend the CIDOC CRM and the above official extensions.
-Adopting the conventions of the CIDOC CRM each class and property have been given an
-identifier in addition to their names. The naming convention adopted for this extension is:
-ZE = class
-ZP = property
-The choice of these names was arbitrary, making a conceptual connection with the official CRM
-representation while clearly distinguishing the new classes and properties from those of either
-CMR base or other extensions.
-3
-Hierarchical Presentation
-Class Hierarchy
-E1 CRM Entity
-E2 Temporal Entity
-ZE1 Institutional Fact
-ZE2 Appellative Status
-ZE3 Contact Status
-ZE4 Classificatory Status
-ZE5 Function Status
-ZE6 Social Status
-ZE7 Custodial Status
-ZE8 Ownership Status
-ZE9 Residential Status
-ZE10 Family Status
-ZE11 Membership Status
-ZE12 Referential Status
-ZE14 Similarity Status
-ZE15 Set Status
-E4 Period
-E5 Event
-E63 Beginning of Existence
-E65 Creation
-E7 Activity
-I1 Argumentation
-ZE18 Critical Reading
-E65 Creation
-D7 Digital Machine Event
-ZE17 Digital Reading
-E11 Modification
-D7 Digital Machine Event
-ZE17 Digital Reading
-ZE16 Utterance Event
-ZE13 Speech Act
-ZE17 Digital Reading
-ZE18 Critical Reading
-E13 Attribute Assignment
-ZE19 Naming
-E15 Identifier Assignment
-E17 Type Assignment
-E8 Acquisition
-4
-ZE20 Declarative Acquisition
-E10 Transfer of Custody
-ZE21 Declarative Transfer of Custody
-E85 Joining
-ZE22 Declarative Joining
-E86 Leaving
-ZE23 Declarative Leaving
-E77 Persistent Item
-E70 Thing
-E71 Human-Made Thing
-E28 Conceptual Object
-ZE24 Notional Set
-5
-Property Hierarchy
-ZP1 has intentional subject [D: ZE1, R: E1]
-ZP5 has appellative subject [D:ZE2, R:E1]
-ZP8 has contact subject [D:ZE3, R:E39]
-ZP11 has classificatory subject [D:ZE4, R:E1]
-ZP14 has functional subject [D:ZE5, R:E72]
-ZP17 has social subject [D:ZE6, R:E39]
-ZP20 has custodial subject [D:ZE7, R:E19]
-ZP23 has ownership subject [D:ZE8, R:E72]
-ZP26 has residence subject [D:ZE9, R:E39]
-ZP29 has family subject [D:ZE10, R:E21]
-ZP32 has membership subject [D:ZE11, R:E39]
-ZP35 has referential subject [D:ZE11, R:E89]
-ZP2 ascribes intentional target [D: ZE1, R:E1]
-ZP6 ascribes appellation [D: ZE2, R:E41]
-ZP9 ascribes contact point [D:ZE3,R: E41]
-ZP12 ascribes classification [D:ZE4, R:E55]
-ZP15 ascribes function [D:ZE5, R:E55]
-ZP18 ascribes social status [D:ZE6, R:E55]
-ZP21 ascribes custodian [D:ZE7, R:E39]
-ZP24 ascribes owner [D:ZE8, R:E39]
-ZP27 ascribes residence place [D:ZE9, R:E53]
-ZP30 ascribes relative [D:ZE10, R:E21]
-ZP33 ascribes group [D:ZE11, R:E74]
-ZP36 ascribes referent [D:ZE12, R:E1]
-ZP3 ascribes intentional relation [D: ZE1, R:E55]
-ZP7 ascribes appellative relation [D: ZE1, R:E55]
-ZP10 ascribes contact point relation [D: ZE3, R:E55]
-ZP13 ascribes classification relation [D: ZE4, R:E55]
-ZP16 ascribes functional relation [D: ZE5, R:E55]
-ZP19 ascribes social status relation [D: ZE6, R:E55]
-ZP22 ascribes custodial relation [D: ZE7, R:E55]
-ZP25 ascribes ownership relation [D: ZE8, R:E55]
-ZP28 ascribes residence relation [D: ZE9, R:E55]
-ZP31 ascribes family relation [D: ZE10, R:E55]
-ZP34 ascribes group relation [D: ZE11, R:E55]
-ZP37 ascribes referential relation [D: ZE12, R:E55]
-ZP38 ascribes referential mode [D: ZE12, R:E55]
-ZP4 holds for [D: ZE1, R:E74]
-P16 used specific object
-ZP41 utters [D: ZE13, R:E33]
-P33 used specific technique
-ZP39 invokes [D: ZE13, R:E29]
-6
-ZP40 performs [D: ZE13, R:E29]
-O13 triggers
-ZP42 intentionally initiates [D: ZE13, R:ZE1]
-7
-Classes
-8
+CIDOC CRM  Sci v. 1.2.8
+
+The specification consists of the a set of declarations for formalized classes and properties that extend the CIDOC CRM and the above official extensions. 
+
+Adopting the conventions of the CIDOC CRM each class and property have been given an identifier in addition to their names. The naming convention adopted for this extension is:
+
+**ZE = class<br />
+ZP = property**
+
+The choice of these names was arbitrary, making a conceptual connection with the official CRM representation while clearly distinguishing the new classes and properties from those of either CMR base or other extensions.
+
+##Hierarchical Presentation##
+
+###Class Hierarchy###
+
+E1 CRM Entity<br />
+    ....E2 Temporal Entity<br />
+    ........ZE1 Institutional Fact<br />
+        ............ZE2 Appellative Status<br />
+                                            ........................ZE3 Contact Status<br />
+                    ............ZE4 Classificatory Status<br />
+                                                ........................ZE5 Function Status<br />
+                                                ........................ZE6 Social Status<br />
+                    ............ZE7 Custodial Status<br />
+                                ............ZE8 Ownership Status<br />
+                                ............ZE9 Residential Status<br />
+                                ............ZE10 Family Status<br />
+                                ............ZE11 Membership Status<br />
+                                ............ZE12 Referential Status<br />
+                                ............ZE14 Similarity Status<br />
+                                ............ZE15 Set Status<br />
+                                ............ZE25 Dating Status<br />
+        ....E4 Period<br />
+            ........E5 Event<br />
+                    ............E63 Beginning of Existence<br />
+                                                    ........................ E65 Creation<br />
+                    ............E7 Activity<br />
+                                            ........................I1 Argumentation<br />
+                ................................................ZE18 Critical Reading<br />
+                                                    ........................E65 Creation<br />
+                ................................................D7 Digital Machine Event<br />
+................................................................................................ZE17 Digital Reading<br />
+                                            ........................E11 Modification<br />
+                    ................................................D7 Digital Machine Event<br />
+
+................................................................................................ZE17 Digital Reading<br />
+                                            ........................ZE16 Utterance Event<br />
+                                                    ........................ ZE13 Speech Act<br />
+                ................................................ZE17 Digital Reading<br />
+            ................................................ ZE18 Critical Reading<br />
+                ................................................E13 Attribute Assignment<br />
+                        ................................................................................................ZE19 Naming<br />
+                       ................................................................................................ZE26 Dating Declaration<br />
+                        ................................................................................................E15 Identifier Assignment<br />
+                        ................................................................................................E17 Type Assignment<br />
+                                            ........................ E8 Acquisition<br />
+                ................................................ZE20 Declarative Acquisition<br />
+                                                ........................E10 Transfer of Custody<br />
+        ................................................ZE21 Declarative Transfer of Custody<br />
+                                                    ........................E85 Joining<br />
+            ................................................  ZE22 Declarative Joining<br />
+                                                    ........................E86 Leaving<br />
+            ................................................ ZE23 Declarative Leaving<br />
+    ....E77 Persistent Item<br />
+            .......E70 Thing<br />
+                    ............E71 Human-Made Thing<br />
+                                ........................E28 Conceptual Object<br />
+                            ................................................ZE24 Notional Set<br />
+
+
+
+###Property Hierarchy###
+
+ZP1 has intentional subject [D: ZE1, R: E1]<br />
+    ....ZP5 has appellative subject [D:ZE2, R:E1] <br />
+ZP8 has contact subject [D:ZE3, R:E39] <br />
+        ....ZP11 has classificatory subject [D:ZE4, R:E1]<br />
+            ........ZP14 has functional subject [D:ZE5, R:E72]<br />
+                    ........ZP17 has social subject [D:ZE6, R:E39]<br />
+       ....ZP20 has custodial subject [D:ZE7, R:E19]<br />
+        ....ZP23 has ownership subject [D:ZE8, R:E72]<br />
+        ....ZP26 has residence subject [D:ZE9, R:E39]<br />
+        ....ZP29 has family subject [D:ZE10, R:E21]<br />
+        ....ZP32 has membership subject [D:ZE11, R:E39]<br />
+        ....ZP35 has referential subject [D:ZE11, R:E89]<br />
+ZP2 ascribes intentional target [D: ZE1, R:E1]<br />
+        ....ZP6 ascribes appellation [D: ZE2, R:E41]<br />
+                    ........ZP9 ascribes contact point [D:ZE3,R: E41]<br />
+        ....ZP12 ascribes classification [D:ZE4, R:E55]<br />
+                    ........ZP15 ascribes function [D:ZE5, R:E55]<br />
+                    ........ZP18 ascribes social status [D:ZE6, R:E55]<br />
+        ....ZP21 ascribes custodian [D:ZE7, R:E39]<br />
+        ....ZP24 ascribes owner [D:ZE8, R:E39]<br />
+        ....ZP27 ascribes residence place [D:ZE9, R:E53]<br />
+        ....ZP30 ascribes relative [D:ZE10, R:E21]<br />
+        ....ZP33 ascribes group [D:ZE11, R:E74]<br />
+        ....ZP36 ascribes referent [D:ZE12, R:E1]<br />
+ZP3 ascribes intentional relation [D: ZE1, R:E55]<br />
+        ....ZP7 ascribes appellative relation [D: ZE1, R:E55]<br />
+                    ........ZP10 ascribes contact point relation [D: ZE3, R:E55]<br />
+        ....ZP13 ascribes classification relation [D: ZE4, R:E55]<br />
+                    ........ZP16 ascribes functional relation [D: ZE5, R:E55]<br />
+                    ........ZP19 ascribes social status relation [D: ZE6, R:E55]<br />
+        ....ZP22 ascribes custodial relation [D: ZE7, R:E55]<br />
+        ....ZP25 ascribes ownership relation [D: ZE8, R:E55]<br />
+        ....ZP28 ascribes residence relation [D: ZE9, R:E55]<br />
+        ....ZP31 ascribes family relation [D: ZE10, R:E55]<br />
+        ....ZP34 ascribes group relation [D: ZE11, R:E55]<br />
+        ....ZP37 ascribes referential relation [D: ZE12, R:E55]<br />
+        ....ZP38 ascribes referential mode [D: ZE12, R:E55]<br />
+ZP4 holds for [D: ZE1, R:E74]<br />
+        ....ZP41 utters [D: ZE13, R:E33]<br />
+ZP39 invokes [D: ZE13, R:E29]<br />
+ZP40 performs [D: ZE13, R:E29]<br />
+O13 triggers <br />
+ZP42 intentionally initiates [D: ZE13, R:ZE1]<br />
+ZP54 ascribes date <br />
+ZP55 has dating subject <br />
+ZP56 ascribes dating relation <br />
+
+##Classes##
+
 # ZE1
 Label Institutional Fact
 Superclass of
