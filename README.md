@@ -31,8 +31,8 @@ The specification consists of the a set of declarations for formalized classes a
 
 Adopting the conventions of the CIDOC CRM each class and property have been given an identifier in addition to their names. The naming convention adopted for this extension is:
 
-** ZE = class<br />
-ZP = property **
+**ZE = class<br />
+ZP = property**
 
 The choice of these names was arbitrary, making a conceptual connection with the official CRM representation while clearly distinguishing the new classes and properties from those of either CMR base or other extensions.
 
