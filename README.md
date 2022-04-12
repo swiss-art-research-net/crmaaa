@@ -1,4 +1,4 @@
-# CRM Art and Architectural Argumentation Conceptual Model Specification
+# CRM Art and Architectural Argumentation Conceptual Model Specification#
 
 Document Type: Specification<br />
 Authors: George Bruseker (Takin.solutions)<br />
@@ -7,7 +7,7 @@ Filename: CRM_AAA_Spec_v.0.9.pdf<br />
 Report Date: 2/2/21<br />
 Project Reference: Sustainable Art and Architectural Data Reuse in Teaching and Research<br />
 
-##Table of Contents
+##Table of Contents##
 
 Introduction   
 Hierarchical Presentation    
