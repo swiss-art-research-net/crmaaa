@@ -1,4 +1,4 @@
-# CRM Art and Architectural Argumentation Conceptual Model Specification#
+# CRM Art and Architectural Argumentation Conceptual Model Specification
 
 Document Type: Specification<br />
 Authors: George Bruseker (Takin.solutions)<br />
@@ -7,7 +7,7 @@ Filename: CRM_AAA_Spec_v.0.9.pdf<br />
 Report Date: 2/2/21<br />
 Project Reference: Sustainable Art and Architectural Data Reuse in Teaching and Research<br />
 
-##Table of Contents##
+## Table of Contents ##
 
 Introduction   
 Hierarchical Presentation    
@@ -17,7 +17,7 @@ Classes
 Properties    
 
 
-##Introduction##
+## Introduction ##
 
 This document represents the formal specification for an unofficial formal extension of the CIDOC CRM designed for application in the area of art and architectural historical research. The scope of this extension is to support art and architectural research in the sense of the study of primary and secondary documents for the derivation, manually and programmatically, of historically contextual facts that can be used to support reflection and structured argumentation. The core expressivity that this extension adds is the ability to accurately express historically bound, contextual social facts relative to the agents holding those beliefs and the temporal period for which those beliefs were valid. The extension enables this expressivity by introducing the notions of institutional fact and speech act as core modelling concepts. Institutional facts are collective beliefs held by groups for period of time about the world. Such collective beliefs while subjectively grounded are epistemically objective for the community over which they hold sway. Introducing the notion of institutional fact allows for a specialization of the core CRM to be able to express these social realities (expressed in simple, aoristic binary properties in the core CRM) in their full social complexity as temporally and socially bound beliefs. The concomitant core notion introduced in this extension is the idea of Speech Act in the Austinian and Serlean sense. A speech act is a kind of intentional event (E7 Activity of CRM base) in which agents purposefully apply a rule and perform a set ritual in order to bring about a new social state or institutional fact. Introducing the notion of speech act provides both a high level ontological category and set of relations for describing the kinds of events which are the cause of institutional facts as well as providing a starting point for the analysis of the non truth propositional use of information objects. In speech acts, information objects (e.g. phrases and formulae) are deployed not to convey states of the world but to generate states of the world. The subject of historical investigation is not simply the bare facts available to an empirical analysis of the physical world but involves an investigation of the social activities which generated contexts of understanding and belief that may differ significantly over times and peoples. Materializing the social relations represented in CRM base as institutional facts gives them a better ontological position and offer a better epistemological approach to their study by recognizing social, negotiated facts as objective realities in themselves and treating them as first class entities of study. This involves a departure from the aims of CRM base which is guided by an information integration functionality which favours the representation of the latest state of knowledge in a presentist perspective. In the study of the history of art and architecture it is in no small part the different non-coinciding facts held or supported by different entities over different times which are of interest. The materialization of institutional facts supports the information management functionality which guides this informal extension of the CIDOC CRM which aims to support historians in representing the positive knowledge they can gather from primary and secondary evidence of both past simple and institutional facts for the purposes of proposing hypotheses and analyses of texts, authors, periods, works and so on. In this regard, CRMAnA also provides an initial limited set of classes for describing traditional and digital methods of deriving facts from texts, in order to support the linking of contemporary research processes as provenance nodes for the different data points of simple and institutional facts which they generate in the course of their research.
 
@@ -31,14 +31,14 @@ The specification consists of the a set of declarations for formalized classes a
 
 Adopting the conventions of the CIDOC CRM each class and property have been given an identifier in addition to their names. The naming convention adopted for this extension is:
 
-**ZE = class<br />
-ZP = property**
+** ZE = class<br />
+ZP = property **
 
 The choice of these names was arbitrary, making a conceptual connection with the official CRM representation while clearly distinguishing the new classes and properties from those of either CMR base or other extensions.
 
-##Hierarchical Presentation##
+## Hierarchical Presentatio n##
 
-###Class Hierarchy###
+### Class Hierarchy ###
 
 E1 CRM Entity<br />
     ....E2 Temporal Entity<br />
@@ -96,7 +96,7 @@ E1 CRM Entity<br />
 
 
 
-###Property Hierarchy###
+### Property Hierarchy ###
 
 ZP1 has intentional subject [D: ZE1, R: E1]<br />
     ....ZP5 has appellative subject [D:ZE2, R:E1] <br />
