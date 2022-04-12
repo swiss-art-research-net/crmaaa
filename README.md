@@ -145,7 +145,7 @@ ZP54 ascribes date <br />
 ZP55 has dating subject <br />
 ZP56 ascribes dating relation <br />
 
-##Classes##
+## Classes ##
 
 |Identifier|ZE1 |
 |----------|----|
@@ -421,7 +421,7 @@ ZP56 ascribes dating relation <br />
 
 
 
-##Properties##
+## Properties ##
 
 |Identifier|ZP1|
 |----------|---|
