@@ -36,7 +36,7 @@ ZP = property**
 
 The choice of these names was arbitrary, making a conceptual connection with the official CRM representation while clearly distinguishing the new classes and properties from those of either CMR base or other extensions.
 
-## Hierarchical Presentatio n##
+## Hierarchical Presentation ##
 
 ### Class Hierarchy ###
 
