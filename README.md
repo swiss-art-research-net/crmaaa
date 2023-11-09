@@ -1,6 +1,10 @@
 ## CRM Art and Architectural Argumentation Repository Description ##
 
-This repository exists to provide a point of access for users to download the stable releases of the CRM Art and Architectural Argumentation ontology (CRMaaa). CRMaaa is an extension of the CIDOC CRM standard designed to support the representation of historical data not easily represented using that base standard. It introduces the key concepts of institutional fact and speech act in order to support the representation of socially grounded yet objective historical facts.
+This repository exists to provide a point of access for users to download the stable releases of the CRM Art and Architectural Argumentation ontology (CRMaaa). 
+
+This repository is maintained through a collaboration between the Swiss Art Research Infrastructure (https://www.sari.uzh.ch/en.html)and Takin.solutions (https://takin.solutions).
+
+CRMaaa is an extension of the CIDOC CRM standard designed to support the representation of historical data not easily represented using that base standard. It introduces the key concepts of institutional fact and speech act in order to support the representation of socially grounded yet objective historical facts.
 
 The CRMaaa extension is developed and maintained using the OntoMe tool and its project space can be found here:
 
