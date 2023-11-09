@@ -9,3 +9,4 @@ https://ontome.net/project/69
 Changes to the ontology are managed systematically through that tool. Official releases, as of version 1.5, are created systematically through the automatic generation of specification and rdfs files from OntoMe.
 
 In this repository users will find the different stable versions of CRMaaa which can be used for creating, managing and querying semantic data using the CIDOC CRM and CRMaaa ontologies. Each release includes at least a specification document in pdf format, explaining the ontology, and an rdfs file which enables its implementation as a semantic web ontology in rdfs supporting platforms and systems.
+
