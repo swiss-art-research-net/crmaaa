@@ -997,6 +997,9 @@ It serves as a shortcut for the fully developed semantic pathway, which instanti
     <rdfs:label xml:lang="en">ascribes dating relation</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP56</skos:notation>
     <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status"/>
+    <rdfs:subPropertyOf>
+      <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation"/>
+    </rdfs:subPropertyOf>
   </rdf:Property>
   <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP57_has_obligation_subject">
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
@@ -1213,10 +1216,7 @@ It serves as a shortcut for the fully developed semantic pathway, which instanti
   </rdf:Property>
   <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP7i_is_appellative_relation_ascribed_by">
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the appellation which is indicated as holding for the named subject  of the appellative status pertains to this subject.
-
- 
-</rdfs:comment>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the appellation which is indicated as holding for the named subject  of the appellative status pertains to this subject.</rdfs:comment>
     <rdfs:label xml:lang="en">is  appellative relation ascribed by</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP7i</skos:notation>
     <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status"/>
@@ -1819,6 +1819,9 @@ It serves as a shortcut for the fully developed semantic pathway, which instanti
     <rdfs:label xml:lang="en">is dating relation ascribed by</rdfs:label>
     <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP56i</skos:notation>
     <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status"/>
+    <rdfs:subPropertyOf>
+      <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by"/>
+    </rdfs:subPropertyOf>
   </rdf:Property>
 
   <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP57i_is_obligation_subject_of">
