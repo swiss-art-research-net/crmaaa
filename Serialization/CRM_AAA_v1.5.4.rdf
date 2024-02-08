@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:swrl="http://www.w3.org/2003/11/swrl#" xmlns:swrlb="http://www.w3.org/2003/11/swrlb#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="https://takin.solutions/ontologies/crmaaa/">
+<rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE1</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of institutional fact is an ascription of a status function to an object by a community. The institutional fact is a concretization of a collective intentionality of the community in question towards a certain object over a certain period of time.
+An instance of institutional fact is recognizable to a competent speaker/member of a symbolic community (native or learner with sufficient competence). It may not be perceived through a single sense impression but through multiple experiences and implicit reasonings (e.g.: embedded participation, behavioural observation, linguistic evidence and interview), yet typically such intermediate observations and inferences are not necessarily recorded or accessible. The historical statement is typically the assertion of the institutional fact, that such and such a fact was the case, and was in force for a given community, at some time. The epistemic veridicality of the stated /reference instance of institutional fact is always open to contestation. The means of contestation involve analyzing the sources which support it.
+Instances of institutional fact come into existence based on conventions establishing the conditions under which they come into effect. Typically, an instance of institutional fact will come into existence either because of the performance of its stipulated, initiating speech act (e.g.: state of being married via marriage) or as a result of events fulfilling existing norm prescriptions in the community (e.g.: state of being uncle as result of birth of child of sister).  An institutional fact comes to be through the agreed fiat of a community. It typically ceases to exist either because of a stipulated, nullifying speech act (e.g. divorce proceeding), because a community ceases to support the effective rule supporting its declaration (e.g.: ownership of people) or force majeure (e.g.: object ascribed function/status or community perceiving status is eliminated).</rdfs:comment>
+    <rdfs:label xml:lang="en">Institutional Fact</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE2</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of appellative status is the collective ascription of an appellation to an object by a community. The substance of the appellative status is the communal commitment to the naming of the object in question with a designated appellation, under a designated modality.
+Instances of appellative status are recognizable through evidence of community members adopting the intentional stance of so-naming towards the object in question, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: ZE19 Naming] initiating this status. Examples of such evidence include, several individuals so naming a thing, a witness declaring that a thing is ‘so named, by us’ or through documents reporting this fact.
+Instances of appellative status may come to be through a formal process such as a declarative act of naming, or may have arisen through habit, fiat or be of unknown origin. Instances of appellative status may end either through a formal process, such as a new declarative act of naming, the formal stripping of a name, or may simply fade out of use, be eliminated by fiat or be of unknown reason. </rdfs:comment>
+    <rdfs:label xml:lang="en">Appellative Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE3_Contact_Point_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE3</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of contact status is the collective ascription of a contact point to an actor by a community. The substance of the contact status is the communal commitment to the addressing of messages to the actor in question according to a designated contact point appellation, using the implied message exchanging method.
+Instances of contact status are recognizable through evidence of community members adopting the intentional stance of so-addressing messages to the actor in question, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: E15 Identifier Assignment] initiating this status. Examples of such evidence include, several individuals so addressing messages to an actor via this contact point appellation, a witness declaring that an actor can so be reached, or through documents reporting this fact.
+Instances of contact status may come to be through a formal process such as a declarative act of identifier assignment, or may have arisen through habit, fiat or be of unknown origin. Instances of contact status may end either though a formal process, such as a new declarative act of identifier assignment, through formal assignment, or may simply fade out of use, be eliminated by fiat or for unknown reasons. </rdfs:comment>
+    <rdfs:label xml:lang="en">Contact Point Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE4</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of classificatory status is the collective ascription of a type to an object by a community. The substance of the classificatory status is the communal commitment to the classification of the object in question according to the designated type.
+Instances of classificatory status are recognizable through evidence of community members adopting the intentional stance of so-classifying the object in question, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: E17 Type Assignment] initiating this status.
+Instances of classificatory status may come to be through a formal process such as a declarative act of classification [E17 Type Assignment], or may have arisen through habit, fiat or be of unknown origin. Instances of classificatory status may end either though a formal process, such as a new declarative act of classification, be officially declassified, or may simply fade out of use, be eliminated by fiat or be of unknown reason. </rdfs:comment>
+    <rdfs:label xml:lang="en">Classificatory Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+</rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE5_Function_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE5</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of functional status is the collective ascription of an operative functionality to an object by a community. The substance of the function status is the communal commitment to relating to and / or using the object in question according to a designated function.
+Instances of function status are recognizable through evidence of community members adopting the intentional stance of so-using or relating to the object in question, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: E17 Type Assignment] initiating this status.
+Instances of function status may come to be through a formal process such as a declarative act of classification [E17 type Assignment], or may have arisen through habit, fiat or be of unknown origin. Instances of function status may end either though a formal process, such as a new declarative act of classification.</rdfs:comment>
+    <rdfs:label xml:lang="en">Function Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE6</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of social status is the collective ascription of a social function to an actor by a community. The substance of the social status is the communal commitment to relating to and acting toward the actor in question according to the designated status.
+Instances of social status are recognizable through evidence of community members adopting the intentional stance of so relating or acting toward the actor in question, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: E17 Type Assignment] initiating this status.
+Instances of social status may attributed to individuals or to groups of individuals. Instances of social status may also be held in relation to a third party, to whom the subject of the social status bears certain rights and/or responsibilities.
+Instances of social status may come to be through a formal process such as a declarative act of assignment [E17 Type Assignment], or may have arisen through habit, fiat or be of unknown origin. Instances of social status may end either though a formal process, such as a new declarative act of classification.</rdfs:comment>
+    <rdfs:label xml:lang="en">Social Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE7_Custodial_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE7</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of custodial status is the collective ascription of a relationship of custodianship of some actor over an object by a community. The substance of the custodial status is the communal commitment to the recognition of the relationship of custodianship over the designated object by the actor in question.
+Instances of custodial status are recognizable through evidence of community members adopting the intentional stance of so-recognizing this status, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: ZE21 Declarative Transfer of Custody] initiating this status.
+Instances of classificatory status may come to be through a formal process such as a declarative transfer of custody, or may have arisen through habit, fiat or be of unknown origin. Instances of custodial status may end either though a formal process, such as a new declarative act of legal transfer of custody, or may simply fade out of use, be eliminated by fiat or be of unknown reason. </rdfs:comment>
+    <rdfs:label xml:lang="en">Custodial Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE8_Ownership_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE8</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of ownership status is the collective ascription of a relationship of legal possession of some actor over a legal object by a community. The substance of the ownership status is the communal commitment to the recognition of the relationship of possession over the designated legal object by the actor in question.
+Instances of ownership status are recognizable through evidence of community members adopting the intentional stance of so-recognizing this status, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: ZE20 Declarative Aquisition] initiating this status.
+Instances of ownership status may come to be through a formal process such as a declarative act of taking ownership, or may have arisen through habit, fiat or be of unknown origin. Instances of ownership status may end either though a formal process, such as a new declarative act of acquisition, or may simply fade out of use, be eliminated by fiat or be of unknown reason.</rdfs:comment>
+    <rdfs:label xml:lang="en">Ownership Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE9_Residential_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE9</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of residential status is the collective ascription to an actor of a formal place of residence by a community. The substance of the residential status is the communal commitment to the recognition and use of the designated place with regards to the residence of the designated actor.
+Instances of residential status are recognizable through evidence of community members adopting the intentional stance of so-recognizing this status, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act initiating this status.
+Instances of residence status may come to be through a formal process such as a declarative act of taking up residence, or may have arisen through habit, fiat or be of unknown origin. Instances of residence status may end either though a formal process, such as a new declarative act, or may simply fade out of use, be eliminated by fiat or be of unknown reason.  </rdfs:comment>
+    <rdfs:label xml:lang="en">Residential Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE10_Family_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE10</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of family status is the collective ascription of a familial relationship between one actor and another by a community. The substance of the family status is the communal recognition of the familial connection between the two actors in question.
+Instances of family status are recognizable through evidence of community members adopting the intentional stance  and behaviour indicated as proper to this relation, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act (e.g.: adoption) initiating this status.
+Instances of family status may come to be simply through birth in a certain community or may require that a formal process such as a right of passage has been undertaken. Instances of family status may end either though a formal process such as a renunciation or through death.  </rdfs:comment>
+    <rdfs:label xml:lang="en">Family Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE11_Membership_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE11</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of membership status is the collective ascription of a membership relationship between an actor and some group by a community. The substance of the membership status is the communal recognition of the ascribed membership relation between the actor and the group in question.
+Instances of membership status are recognizable through evidence of community members adopting the intentional stance  and behaviour indicated as proper to this relation, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: ZE22 Declarative Joining] initiating this status.
+Instances of membership status may come to be through a formal process such as a declarative act of declarative joining or may have arisen through habit, fiat or be of unknown origin. Instances of membership status may end either though a formal process [e.g.: ZE23 Declarative Leaving], or may simply fade out, be eliminated by fiat or for unknown reasons. </rdfs:comment>
+    <rdfs:label xml:lang="en">Membership Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE12</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of referential status is the collective ascription of a referential relationship between a propositional object and some entity by a community. The substance of the referential status is the communal recognition of the ascribed referential relation holding between the propositional object and the entity in question.
+Instances of referential status are recognizable through evidence of community members adopting the intentional stance  and behaviour indicated as properly holding between the propositional object and the object it is taken to refer to in the manner it is meant to refer, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act initiating this status.
+Instances of referential status may come to be through a formal process such as a declarative act or may have arisen through habit, fiat or be of unknown origin. Instances of referential status may end either though a formal process, or may simply fade out, be eliminated by fiat or for unknown reasons. </rdfs:comment>
+    <rdfs:label xml:lang="en">Referential Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE13</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of speech act  comprises an intentional activity engaged in by a set of actors to create a new institutional fact - or to nullify an existing one - that holds for a given community. Speech acts are carried out by intentional actors through invoking a social rule and performing a prescribed set of actions often including the locution of set formulae of phrases by certain actors, fulfilling certain roles. Correct execution of the speech act as specified by the rule results in the existence of new institutional facts or their negation. The substance of speech act is ritual action performed by a group.
+An instance of speech act begins when the intended ritual proceeding as specified by the rule invoked is initiated. The instance of speech act ends when the required set of actions specified for the act in question are executed or it is abandoned.</rdfs:comment>
+    <rdfs:label xml:lang="en">Speech Act</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE14</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of similarity status is the collective ascription of a similarity relationship between any two objects by a community. The substance of the similarity status is the communal recognition of the ascribed similarity relation between the two entities in question.
+Instances of similarity status are recognizable through evidence of community members adopting the intentional stance and behaviour indicated by the kind of similarity believed to hold between the two referenced entities, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act initiating this status.
+Instances of similarity status may come to be through a formal process such as a declarative act (e.g., scholarship) or may have arisen through habit, fiat or be of unknown origin. Instances of similarity status may end either though a formal process (e.g., disproof or refutation), or may simply fade out, be eliminated by fiat or for unknown reasons.  </rdfs:comment>
+    <rdfs:label xml:lang="en">Similarity Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE15_Set_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE15</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of set status is the collective ascription of some relationship of belonging between some entity and a notional set by a community. The substance of the set status is the communal recognition of the ascribed belonging between the subject entity and the set in question.
+Instances of set status are recognizable through evidence of community members adopting the intentional stance and behaviour indicated as proper to this set-belonging relation, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act initiating this status.
+Instances of set status may come to be through a formal process or may have arisen through habit, fiat or be of unknown origin. Instances of membership status may end either though a formal process, or may simply fade out, be eliminated by fiat or for unknown reasons.  </rdfs:comment>
+    <rdfs:label xml:lang="en">Set Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdfs:Class>    
+    <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE17_Digital_Reading">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE17</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of digital reading is a digital processing event guided by a set of instructions or parameters for returning an output result set of identifications that makes propositions about the content of an input dataset. Digital reading is a computational process guided by a parametrized hypothesis resulting in a new propositional dataset for scientific consideration. The propositional information generated by the digital reading process should be considered as provisional knowledge posited under a hypothesis. Typically propositions generated by the digital reading will become the subject of further scholarly research.</rdfs:comment>
+    <rdfs:label xml:lang="en">Digital Reading</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+    <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMdig/D7_Digital_Machine_Event"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE18_Critical_Reading">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE18</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of critical reading is a process of analysis undertaken by a scholar to derive analytical facts from a specific information resource. Critical reading engages the background knowledge of the scholar and their interpretive horizon in order to support them in actively reading the research object to derive factual, historically contextualized/contextualizing information regarding the propositional content in question and the world(s) it pertains too. This process can take as input previous scholarly documentation or outputs of digital reading events. Critical reading may result in a series of constructed arguments, serving as a foundation for the documentation and analysis of an argument regarding the text and its referents. Critical reading might also result in the observation, documentation or assertion of a social fact, such as the assertion of an appelative or classificatory status. In the latter case, the instance of ZE18 Critical Reading serves as provenance for the existence of the fact in the network.</rdfs:comment>
+    <rdfs:label xml:lang="en">Critical Reading</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE19_Naming">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE19</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of naming are comprised of an act which officially confers a name to some object under a specific procedure. The substance of naming is an intentional, social act.
+Instances of ZE19 Naming come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful termination of the act or because of its premature termination.
+The result of the instance of naming is the coming to be of a collective acceptance of a name for some object in some mode for some time. The details of this institutional fact are documented in the resultant instance of ZE2 Appellative Status.</rdfs:comment>
+    <rdfs:label xml:lang="en">Naming</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment"/>  
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE20_Declarative_Acquisition">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE20</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of this class comprise official acquisition events undertaken following formal procedures within a social grouping leading to formal ownership status over an object by some actor according to the participating parties. The substance of declarative acquisition is an intentional, social act. 
+Instances of ZE20 Declarative Acquisition come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful termination of the act or because of its premature termination.
+A successful act of ZE20 Declarative Acquisition leads to the generation of an instance of ZE8 Ownership Status, the institutional fact that thereafter mediates the social relation to this object until it has been abrogated.</rdfs:comment>
+    <rdfs:label xml:lang="en">Declarative Acquisition</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition"/>  
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right"/>  
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE21_Declarative_Transfer_of_Custody">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE21</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of this class comprise official transfer of custody events undertaken following formal procedures within a social grouping leading to formal change in the custody status over an object, ascribing it to some actor's custody, according to the participating parties. The substance of declarative transfer of custody is an intentional, social act. 
+Instances of ZE21 Declarative Transfer of Custody come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful termination of the act or because of its premature termination.
+A successful act of declarative transfer of custody leads to the generation of an instance of ZE7 Custodial Status, the institutional fact that thereafter mediates the social relation to this object until it has been abrogated.</rdfs:comment>
+    <rdfs:label xml:lang="en">Declarative Transfer of Custody</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody"/>  
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE22_Declarative_Joining">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE22</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of this class comprise official joining events undertaken following formal procedures within a social grouping leading to formal change in the membership status of an actor relative to a group for the participating parties. The substance of declarative joining is an intentional, social act. 
+Instances of ZE22 Declarative Joining come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful termination of the act or because of its premature termination.
+A successful act of ZE22 Declarative Joining leads to the generation of an instance of ZE11 Membership Status, the institutional fact that thereafter mediates the social relation between the group and actor in question until it has been abrogated.</rdfs:comment>
+    <rdfs:label xml:lang="en">Declarative Joining</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>  
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E85_Joining"/>  
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE23_Declarative_Leaving">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE23</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of this class comprise official leaving events undertaken following formal procedures within a social grouping leading to formal change in the membership status of an actor relative to a group for the participating parties. The substance of declarative leaving is an intentional, social act. 
+Instances of ZE23 Declarative Leaving come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful termination of the act or because of its premature termination.
+A successful act of ZE23 Declarative Leaving leads to the termination of an instance of ZE11 Membership Status, the institutional fact that thereafter no longer mediates the social relation between the group and actor in question.</rdfs:comment>
+    <rdfs:label xml:lang="en">Declarative Leaving</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>  
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E86_Leaving"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE24_Notional_Set">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE24</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of this class comprise notional sets of objects which have been grouped together for one reason or another. The substance of notional set is ideational.
+A notional set comes to be when it is asserted or otherwise declared. It gains or loses members according to the particular rules guiding its maintenance. Typically instances of ZE24 Notional Set serve a functional purpose such as the grouping of some objects according to an ad hoc, context particular, or a context categorical criterion. 
+See also Linked.Art:Set</rdfs:comment>
+    <rdfs:label xml:lang="en">Notional Set</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE25</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of dating status is the collective ascription of a relative dating to an event (such as the production or the use of an object or the despotional moment of an archaeological context) by its association to an established and named historical or archaeological period or event. The substance of the dating status is the communal recognition of the ascribed chronology as holding  true for the dated event and potential, relative object(s) it involves.
+Instances of dating status are typically recorded in the archaeological / archival record.
+Instances of dating status are most typically initiated by a formal process such as a scholarly dating attribution (ZE26 Dating Declaration). Instances of dating status may be terminated either through a formal process (official disproof), or be replaced by another dating declaration holding an updated belief and supported by further evidence.</rdfs:comment>
+    <rdfs:label xml:lang="en">Dating Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE26_Dating_Declaration">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE26</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of dating declaration are scholarly acts which officially assign a historical or archaeological period to an event of interest (paradigmatic cases being the production or the time of use or termination of existence of some object or physical thing) of which, typically, a material artefact is the material remain. 
+The result of the instance of dating declaration is the coming to be of a collective acceptance of the dating status for some object or some physical thing at some time by some group of people. This status may come to be contested or replaced by some new status, either through reasoned argumentation, assertion or even forgetting.
+The details of this institutional fact are documented in the resultant instance of ZE25 Dating Status.</rdfs:comment>
+    <rdfs:label xml:lang="en">Dating Declaration</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE27_Declaration_of_Obligation">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE27</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of declaration of obligation are characterized by formal acts of recognition of a state of obligation between one party and another party for a certain measurable amount of goods.
+Instances of this class comprise official acts undertaken following formal procedures within a social grouping leading to formal recognition of an obligation status between two actors. The substance of declaration of obligation is an intentional, social act.
+Instances of ZE27 Declaration of Obligation come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful termination of the act or because of its premature termination.
+A successful act of ZE27 Declaration of Obligation leads to the generation of an instance of ZE28 Obligation Status, the institutional fact that thereafter holds between two actors until it has been abrogated.</rdfs:comment>
+    <rdfs:label xml:lang="en">Declaration of Obligation</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE28</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of obligation status demarks a socially recognized state of obligation holding between two parties, wherein the first party is recognized to have the requirement to fulfill a debt to the second party for a certain measurable amount. The substance of the obligation status is the commitment from one party to another for compensation in a socially recognized form.
+Instances of obligation status are recognizable through evidence of community members adopting the intentional stance of so-recognizing this status, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: ZE27 Declaration of Obligation) initiating this status.
+Instances of obligation status may come to be through a formal process such as an act of declaring obligation [ZE27 Declaration of Obligation), or may have arisen through habit, fiat or be of unknown origin. Instances of obligation may end either though a formal process, such as an act of renunciation, or may simply fade out of use, be eliminated by fiat or be of unknown reason.</rdfs:comment>
+    <rdfs:label xml:lang="en">Obligation Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE29</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of declaration of transfer of property right consist of events in which an official transfer of a property right is undertaken between two individuals with the result that a new right is assigned to the receiver and the right of the giver may be forfeited.
+Instances of this class consist of events in which an official transfer of a property right is undertaken between two individuals with the result that a new right is assigned to the receiver and the right of the giver may be forfeited. The substance of transfer of property right is an intentional, social act. 
+Instances of ZE29 Transfer of Property Right come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful termination of the act or because of its premature termination.
+A successful act of ZE29 Transfer of Property Right leads to the generation of an instance of ZE30 Property Right Status, the institutional fact that thereafter mediates the social relation to this object until it has been abrogated.</rdfs:comment>
+    <rdfs:label xml:lang="en">Transfer of Property Right</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE30</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of property right status indicate the holding of a right over a legal object by some actor for some time.
+An instance of property right status is the collective ascription of a relationship of legal right of some actor over a legal object by a community. The substance of the property right status is the communal commitment to the recognition of the right of use, right to earn incolm from, and right of disposal (of some sort) over the designated legal object by the actor in question.
+Instances of property right status are recognizable through evidence of community members adopting the intentional stance of so-recognizing this status, as observable from direct witnesses, through the reports of competent observers or through evidence of a declarative act [e.g.: ZE29 Transfer of Property Right) initiating this status.
+Instances of property right status may come to be through a formal process such as a declarative act of taking posession of right [ZE29 Transfer of Property Right), or may have arisen through habit, fiat or be of unknown origin. Instances of property right status may end either though a formal process, such as a new transfer or right, or may simply fade out of use, be eliminated by fiat or be of unknown reason.</rdfs:comment>
+    <rdfs:label xml:lang="en">Property Right Status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE33_Declarative_Formation">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE33</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of this class comprise official group formation events undertaken following formal procedures within a social grouping leading to the formal existence of the group relative to the participating parties, whether subgroups or individual persons. The substance of declarative group formation is an intentional, social act. 
+Instances of ZE33 Declarative Formation come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful termination of the act or because of its premature termination.
+A successful act of ZE33 Declarative Formation leads to the generation of an instance of ZE11 Membership Status, the institutional fact that thereafter mediates the social relation between the group and actor in question until it has been abrogated.</rdfs:comment>
+    <rdfs:label xml:lang="en">Declarative Formation</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>  
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E66_Formation"/>    
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://takin.solutions/ontologies/crmaaa/ZE34_Declarative_Dissolution">
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZE34</skos:notation>
+    <rdfs:comment xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of this class comprise official group dissolution events undertaken following formal procedures within a social grouping leading to the formal termination of the existence of the group relative to the participating parties, whether subgroups or individual persons. The substance of declarative group dissolution is an intentional, social act. 
+Instances of ZE34 Declarative Dissolution come about when the specific social procedure required is intentionally and successfully enacted according to the prevalent rules. They end with the successful completion of the act or because of its premature termination.
+A successful act of ZE34 Declarative Dissolution leads to the termination of an instance of ZE11 Membership Status for each of the groups members, whether individuals or subgroups, until such a time as the group is reformed.</rdfs:comment>
+    <rdfs:label xml:lang="en">Declarative Dissolution</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>  
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E68_Dissolution"/>   
+  </rdfs:Class>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to connect an instance of institutional fact to an entity with which it is concerned. The intentional subject indicated by this property is the object about which the institutional fact holds for the group committed to this institutional reality.</rdfs:comment>
+    <rdfs:label xml:lang="en">has intentional subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP1</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the entity which an instance of institutional fact ascribes to its subject. The intentional target indicated by this property is the object which the institutional fact establishes as holding of its subject for the group committed to this institutional reality. The manner of its holding is indicated by the intentional relation.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes intentional target</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP2</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the relationship which an instance of institutional fact takes to hold between its subject and its object. The intentional relation indicated by this property is the kind of relationship which the institutional fact establishes as holding between them  for the group committed to this institutional reality.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes intentional relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP3</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP4_holds_for">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the community or group for whom an instance of institutional fact holds. Institutional facts have identity only relative to some group for whom they have a significance as formulated through a chosen symbolic system. </rdfs:comment>
+    <rdfs:label xml:lang="en">holds for</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP4</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP5_has_appellative_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the entity for which an appellation holds as institutional fact.</rdfs:comment>
+    <rdfs:label xml:lang="en">has appellative subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP5</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP6_ascribes_appellation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the appellation which is indicated as holding for the named subject of the appellative status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes appellation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP6</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP7_ascribes_appellative_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the appellation which is indicated as holding for the named subject  of the appellative status pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes appellative relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP7</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP8_has_contact_point_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the entity for which a contact point has been specified as means of contact.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has contact point subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP8</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE3_Contact_Point_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP5_has_appellative_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP9_ascribes_contact_point">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the contact point which is indicated as holding for the named subject of the contact status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes contact point</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP9</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE3_Contact_Point_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP6_ascribes_appellation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP10_ascribes_contact_point_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the contact point which is indicated as holding for the named subject  of the contact status pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes contact point relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP10</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE3_Contact_Point_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP7_ascribes_appellative_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP11_has_classificatory_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the entity for which a certain classification is taken to hold by the instance of classificatory status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has classificatory subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP11</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP12_ascribes_classification">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the type which is indicated as holding for the subject of the classification status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes classification</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP12</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP13_ascribes_classification_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the type which is indicated as holding for the subject  of the classification status pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes classification relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP13</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP14_has_functional_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the entity for which a certain functional classification is taken to hold by the instance of functional status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has functional subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP14</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE5_Function_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP11_has_classificatory_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP15_ascribes_function">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the type of function which is indicated as holding for the subject of the function status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes function</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP15</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE5_Function_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP12_ascribes_classification" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP16_ascribes_functional_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the function which is indicated as holding for the subject  of the function status pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes functional relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP16</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE5_Function_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP13_ascribes_classification_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP17_has_social_status_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the actor for which a certain social status is taken to hold by the instance of social status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has social status subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP17</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP11_has_classificatory_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP18_ascribes_social_status">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the type of social status which is indicated as holding for the subject of the social status ascription.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes social status</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP18</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP12_ascribes_classification" />
+  </rdf:Property>
+    <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP19_ascribes_social_status_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the type of social status which is indicated as holding for the subject pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes social status relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP19</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP13_ascribes_classification_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP20_has_custodial_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the physical thing over which a certain custodial status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has custodial subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP20</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE7_Custodial_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP21_ascribes_custodian">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the custodian to whom the custody of the physical thing which is the subject of the custodial status redounds.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes custodian</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP21</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE7_Custodial_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP22_ascribes_custodial_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the custodial status which is indicated as holding over the legal object by the custodian pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes custodial relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP22</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE7_Custodial_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP23_has_ownership_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the legal object over which a certain ownership status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has ownership subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP23</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE8_Ownership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP24_ascribes_owner">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the owner to whom the title of the legal object which is the subject of the ownership status redounds.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes owner</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP24</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE8_Ownership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP25_ascribes_ownership_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the ownership status which is indicated as holding over the legal object by the owner pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes ownership relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP25</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE8_Ownership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP26_has_residence_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the actor for whom the residence status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has residence subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP26</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE9_Residential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP27_acribes_residence_place">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the place at which the subject of the residence status is taken to reside or dwell.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">acribes residence place</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP27</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE9_Residential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP28_ascribes_residence_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the residence status which is indicated as holding over the actor pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes residence relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP28</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE9_Residential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP29_has_familial_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the person for whom the family status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has familial subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP29</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE10_Family_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP30_ascribes_relative">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the person with whom the subject of the family relation status has the familial relation which they have.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes relative</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP30</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE10_Family_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP31_ascribes_familial_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific type of family status which is indicated as holding between the subject individual and his/her ascribed relative.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes familial relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP31</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE10_Family_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP32_has_membership_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the person or group for whom the membership status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">has membership subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP32</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE11_Membership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP33_ascribes_group">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the group ascribed to the subject person of the membership status as having a membership relation thereto.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes group</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP33</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE11_Membership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP34_ascribes_membership_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific type of membership status which is indicated as holding between the subject actor and the group to which it is ascribed as being a member.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes membership relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP34</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE11_Membership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP35_has_referential_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the propositional object for which the referential status is taken to hold.</rdfs:comment>
+    <rdfs:label xml:lang="en">has referential subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP35</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP36_ascribes_referent">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the referent to which the subject propositional object is taken to refer.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes referent</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP36</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP37_ascribes_referential_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific type of referential status which is indicated as holding between the subject propositional object and its indicated intended referent.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes referential relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP37</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP38_ascribes_referential_mode">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the referential status which is indicated as holding between the subject propositional object and its indicated intended referent holds.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes referential mode</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP38</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP40_performed">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the performance plan sanctioned by normative rule appealed to by the speech act  to bring about a new institutional fact. This performance plan indicates the series of necessary procedures that must be followed in order for the speech act to have been successfully carried out and to have created a genuine instance of the institutional fact that it was designed to make possible.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">performed</rdfs:label>
+       skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP40</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P33_used_specific_technique" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP41_uttered">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:comment xml:lang="en">It is typical of performance plans for normative procedures to include a necessary invoking clause or set of clauses which must be uttered in the course of the performance of the speech act in order to for it to be successfully carried out. This property enables the documentation of the use of such a linguistic object.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">uttered</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP41</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP42_intentionally_initiated">
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+    <rdfs:comment xml:lang="en">This property is used to connect the instance of speech act to the instance of institutional fact which it brought into existence through the correct performance of the specified performance to bring about the norm type it aimed to bring about.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">intentionally initiated</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP42</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP43_has_similarity_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate one of two entities for which the similarity status is taken to hold.</rdfs:comment>
+    <rdfs:label xml:lang="en">has similarity subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP43</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP44_ascribes_similarity_target">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the other entity for which the similarity status is taken to hold.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes similarity target</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP44</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP45_ascribes_similarity_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific type of similarity which is indicated as holding between the two entities indicated in the similarity status.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes similarity relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP45</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP46_ascribes_similarity_mode">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific manner in which the similarity status, which is indicated as holding between the two entities indicated in the similarity status, is the case. It''s function corresponds with the .1 properties in CIDOC-CRM 7.1.1.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes similarity mode</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP46</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP47_has_set_belonging_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate an entity which is taken as belonging to a particular set by the instance of set status.</rdfs:comment>
+    <rdfs:label xml:lang="en">has set belonging subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP47</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE15_Set_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP48_ascribes_set">
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE24_Notional_Set"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the set to which an entity is indicated as belonging .</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes set</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP48</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE15_Set_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP49_ascribes_set_belonging_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific type of belonging to the set which is indicated as holding between the subject entity and the target set.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes set belonging relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP49</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE15_Set_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP51_has_former_or_current_set_member">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is used to connect an instance of set to an entity considered to be one of its members.</rdfs:comment>
+    <rdfs:label xml:lang="en">has former or current set member</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP51</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE24_Notional_Set"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP52_intentionally_terminated">
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+    <rdfs:comment xml:lang="en">This property is used to connect the instance of speech act to the instance of institutional fact which it cancels through the correct performance of the specified performance to bring about the norm type it aimed to bring about.</rdfs:comment>
+    <rdfs:label xml:lang="en">intentionally terminated</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP52</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP53_initiated_institutional_fact_for">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:comment xml:lang="en">This property is used to connect the instance of speech act to the instance of group for whom it initiates the existence of a social fact through its performance.
+It serves as a shortcut for the fully developed semantic pathway, which instantiates the ZE1 Institutional Fact, in the path ZE13 Speech Act -&gt; ZP42 intentionally initiated -&gt; ZE1 Institutional Fact -&gt; ZP4 held by -&gt; E74 Group.</rdfs:comment>
+    <rdfs:label xml:lang="en">initiated institutional fact for</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP53</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP54_ascribes_relative_date">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    <rdfs:comment xml:lang="en">This property is used to connect the instance of dating status to the instance of a period to which another instance of period is related for the purposes of datation.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes relative date</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP54</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP55_has_dating_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    <rdfs:comment xml:lang="en">This property is used to connect the instance of dating status to an instance of a period typically associated with the existence or use of a physical thing or an object which is the ultimate object of inquiry.</rdfs:comment>
+    <rdfs:label xml:lang="en">has dating subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP55</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP56_ascribes_dating_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to assign the type of relationship the dated period of the object under investigation bears towards the period assigned to it as its datation.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes dating relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP56</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP57_has_obligation_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate a dimension which represents an amount of debt owed from one party to another within an instance of formal obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">has obligation subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP57</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP58_ascribes_debtor">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate an actor whom is bound by an obligation which it is their duty to repay.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes debtor</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP58</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP59_ascribes_obligation_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific type of obligation relation that holds between the two parties.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes obligation relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP59</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP60_ascribes_debtee">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the actor to whom an obligation is owed in the context of an obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes debtee</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP60</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP61_transferred_property_right_to">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the receiver of a property right from another party within the context of a transfer of property right.</rdfs:comment>
+    <rdfs:label xml:lang="en">transferred property right to</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP61</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP62_transferred_property_right_from">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the party ceding property right to another party within the context of a transfer of property right.</rdfs:comment>
+    <rdfs:label xml:lang="en">transferred property right from</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP62</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP63_transferred_property_right_over">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the legal object over which property right has been transfered from one party to another.</rdfs:comment>
+    <rdfs:label xml:lang="en">transferred property right over</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP63</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP64_has_property_right_subject">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate an object that is subject to a property right of some actor.</rdfs:comment>
+    <rdfs:label xml:lang="en">has property right subject</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP64</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1_has_intentional_subject" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP65_ascribes_property_right_holder">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate an actor who holds a right over a legal object within the context of a property right status.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes property right holder</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP65</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2_ascribes_intentional_target" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP66_ascribes_property_right_relation">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific type of property right relation that is held over the legal object by the actor in the context of a property right status.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes property right relation</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP66</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3_ascribes_intentional_relation" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP67_generated_obligation_upon">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the party who owes another party within the the context of a declaration of obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">generated obligation upon</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP67</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE27_Declaration_of_Obligation"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP68_generated_obligation_to">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the party who is owed by another party within the the context of a declaration of obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">generated obligation to</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP68</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE27_Declaration_of_Obligation"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP69_generated_obligation_of">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate the specific amount owed by one party to another within the context of a declaration of obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">generated obligation of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP69</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE27_Declaration_of_Obligation"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP70_ascribes_social_status_in_relation_to">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate a third party actor for whom another''s social status holds relevance (in the form of rights and/or responsibilities that are thus due to them) in the instance of social status.</rdfs:comment>
+    <rdfs:label xml:lang="en">ascribes social status in relation to</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP70</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP74_terminated_institutional_fact_for">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:comment xml:lang="en">This property is used to connect the instance of speech act to the instance of group for whom it terminates the existence of a social fact through its performance.
+It serves as a shortcut for the fully developed semantic pathway, which instantiates the ZE1 Institutional Fact, in the path ZE13 Speech Act -&gt; ZP52 intentionally terminated -&gt; ZE1 Institutional Fact -&gt; ZP4 held by -&gt; E74 Group.</rdfs:comment>
+    <rdfs:label xml:lang="en">terminated institutional fact for</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP74</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP75_applies_for_context">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate an event context which limits the temporal scope within which an instance of institutional fact is meant to hold. When indicated the event context stands as the frame in which the institutional fact is held to be valid by the associcated group for whom it has significance.</rdfs:comment>
+    <rdfs:label xml:lang="en">applies for context</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP75</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP76_applies_for_context_type">
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is used to indicate an event context type which limits the spatio-temporal scope within which an instance of institutional fact is meant to hold to certain kinds of event. When indicated the event context type stands as the frame or frames in which the institutional fact is held to be valid by the associcated group for whom it has significance.</rdfs:comment>
+    <rdfs:label xml:lang="en">applies for context type</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP76</skos:notation>
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+   <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to connect an instance of institutional fact to an entity with which it is concerned. The intentional subject indicated by this property is the object about which the institutional fact holds for the group committed to this institutional reality.</rdfs:comment>
+    <rdfs:label xml:lang="en">is intentional subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP1i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the entity which an instance of institutional fact ascribes to its subject. The intentional target indicated by this property is the object which the institutional fact establishes as holding of its subject for the group committed to this institutional reality. The manner of its holding is indicated by the intentional relation.</rdfs:comment>
+    <rdfs:label xml:lang="en">is intentional target ascribed  by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP2i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the relationship which an instance of institutional fact takes to hold between its subject and its object. The intentional relation indicated by this property is the kind of relationship which the institutional fact establishes as holding between them  for the group committed to this institutional reality.</rdfs:comment>
+    <rdfs:label xml:lang="en">is intentional relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP3i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP4i_holds">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the community or group for whom an instance of institutional fact holds. Institutional facts have identity only relative to some group for whom they have a significance as formulated through a chosen symbolic system. </rdfs:comment>
+    <rdfs:label xml:lang="en">holds</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP4i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP5i_is_appellative_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the entity for which an appellation holds as institutional fact.</rdfs:comment>
+    <rdfs:label xml:lang="en">is appellative subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP5i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP6i_is_appellation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the appellation which is indicated as holding for the named subject of the appellative status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is appellation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP6i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP7i_is_appellative_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the appellation which is indicated as holding for the named subject  of the appellative status pertains to this subject.</rdfs:comment>
+    <rdfs:label xml:lang="en">is  appellative relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP7i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE2_Appellative_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP8i_is_contact_point_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the entity for which a contact point has been specified as means of contact.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is contact point subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP8i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE3_Contact_Point_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP5i_is_appellative_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP9i_is_contact_point_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the contact point which is indicated as holding for the named subject of the contact status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is contact point ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP9i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE3_Contact_Point_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP6i_is_appellation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP10i_is_contact_point_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the contact point which is indicated as holding for the named subject  of the contact status pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is contact point relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP10i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE3_Contact_Point_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP7i_is_appellative_relation_ascribed_by" />
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP11i_is_classificatory_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the entity for which a certain classification is taken to hold by the instance of classificatory status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is classificatory subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP11i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP12i_is_classification_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the type which is indicated as holding for the subject of the classification status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is clsasification ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP12i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP13i_is_classification_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the type which is indicated as holding for the subject  of the classification status pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is classification relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP13i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE4_Classificatory_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP14i_is_functional_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the entity for which a certain functional classification is taken to hold by the instance of functional status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is functional subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP14i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE5_Function_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP11i_is_classificatory_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP15i_is_function_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the type of function which is indicated as holding for the subject of the function status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is function ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP15i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE5_Function_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP12i_is_classification_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP16i_is_functional_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the function which is indicated as holding for the subject  of the function status pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is functional relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP16i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE5_Function_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP13i_is_classification_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP17i_is_social_status_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the actor for which a certain social status is taken to hold by the instance of social status.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is social status subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP17i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP11i_is_classificatory_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP18i_is_social_status_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the type of social status which is indicated as holding for the subject of the social status ascription.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is social status ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP18i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP12i_is_classification_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP19i_is_social_status_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the type of social status which is indicated as holding for the subject pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is social status relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP19i</skos:notation>
+    <rdfs:relation rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP13i_is_classification_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP20i_is_custodial_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the physical thing over which a certain custodial status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is custodial subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP20i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE7_Custodial_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+ <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP21i_is_custodian_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the custodian to whom the custody of the physical thing which is the subject of the custodial status redounds.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is custodian ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP21i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE7_Custodial_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP22i_is_custodial_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the custodial status which is indicated as holding over the legal object by the custodian pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is  custodial relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP22i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE7_Custodial_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP23i_is_ownership_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the legal object over which a certain ownership status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is ownership subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP23i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE8_Ownership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP24i_is_owner_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the owner to whom the title of the legal object which is the subject of the ownership status redounds.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is owner ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP24i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE8_Ownership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP25i_is_ownership_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the ownership status which is indicated as holding over the legal object by the owner pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is ownership relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP25i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE8_Ownership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP26i_is_residence_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the actor for whom the residence status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is residence subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP26i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE9_Residential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP27i_is_residence_place_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the place at which the subject of the residence status is taken to reside or dwell.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is residence place ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP27i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE9_Residential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP28i_is_residence_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the residence status which is indicated as holding over the actor pertains to this subject.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is residence relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP28i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE9_Residential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP29i_is_familial_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the person for whom the family status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is familial subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP29i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE10_Family_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP30i_is_relative_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the person with whom the subject of the family relation status has the familial relation which they have.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is  relative acribed of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP30i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE10_Family_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP31i_is_familial_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific type of family status which is indicated as holding between the subject individual and his/her ascribed relative.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is familial relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP31i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE10_Family_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP32i_is_membership_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the person or group for whom the membership status is taken to hold.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is membership subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP32i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE11_Membership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP33i_is_group_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the group ascribed to the subject person of the membership status as having a membership relation thereto.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is group ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP33i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE11_Membership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP34i_is_membership_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific type of membership status which is indicated as holding between the subject actor and the group to which it is ascribed as being a member.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is membership relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP34i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE11_Membership_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP35i_is_referential_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the propositional object for which the referential status is taken to hold.</rdfs:comment>
+    <rdfs:label xml:lang="en">is referential subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP35i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP36i_referent_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the referent to which the subject propositional object is taken to refer.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is referent ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP36i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP37i_is_referential_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific type of referential status which is indicated as holding between the subject propositional object and its indicated intended referent.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is referential relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP37i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP38i_is_referential_mode_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the referential status which is indicated as holding between the subject propositional object and its indicated intended referent holds.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">is  referential mode ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP38i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE12_Referential_Status"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP40i_was_performed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the performance plan sanctioned by normative rule appealed to by the speech act  to bring about a new institutional fact. This performance plan indicates the series of necessary procedures that must be followed in order for the speech act to have been successfully carried out and to have created a genuine instance of the institutional fact that it was designed to make possible.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">was performed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP40i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P33i_was_used_by" />
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP41i_was_uttered_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. It is typical of performance plans for normative procedures to include a necessary invoking clause or set of clauses which must be uttered in the course of the performance of the speech act in order to for it to be successfully carried out. This property enables the documentation of the use of such a linguistic object.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">was uttered by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP41i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP42i_was_intentionally_initiated_by">
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to connect the instance of speech act to the instance of institutional fact which it brought into existence through the correct performance of the specified performance to bring about the norm type it aimed to bring about.
+</rdfs:comment>
+    <rdfs:label xml:lang="en">was intentionally initiated by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP42i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP43i_is_similarity_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate one of two entities for which the similarity status is taken to hold.</rdfs:comment>
+    <rdfs:label xml:lang="en">is similarity subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP43i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP44i_is_similarity_target_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the other entity for which the similarity status is taken to hold.</rdfs:comment>
+    <rdfs:label xml:lang="en">is similarity target ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP44i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP45i_is_similarity_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific type of similarity which is indicated as holding between the two entities indicated in the similarity status.</rdfs:comment>
+    <rdfs:label xml:lang="en">is similarity relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP45i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP46i_is_similarity_mode_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific manner in which the similarity status, which is indicated as holding between the two entities indicated in the similarity status, is the case. It''s function corresponds with the .1 properties in CIDOC-CRM 7.1.1.</rdfs:comment>
+    <rdfs:label xml:lang="en">is similarity mode ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP46i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE14_Similarity_Status"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP47i_is_set_belonging_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate an entity which is taken as belonging to a particular set by the instance of set status.</rdfs:comment>
+    <rdfs:label xml:lang="en">is set belonging subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP47i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE15_Set_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP48i_is_set_ascribed_by">
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE24_Notional_Set"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the set to which an entity is indicated as belonging .</rdfs:comment>
+    <rdfs:label xml:lang="en">is set ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP48i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE15_Set_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP49i_is_set_belonging_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific type of belonging to the set which is indicated as holding between the subject entity and the target set.</rdfs:comment>
+    <rdfs:label xml:lang="en">is set belonging subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP49i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE15_Set_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP51i_is_current_or_former_set_member_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to connect an instance of set to an entity considered to be one of its members.</rdfs:comment>
+    <rdfs:label xml:lang="en">is current or former member of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP51i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE24_Notional_Set"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP52i_was_intentionally_terminated_by">
+    <rdfs:domain rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to connect the instance of speech act to the instance of institutional fact which it cancels through the correct performance of the specified performance to bring about the norm type it aimed to bring about.</rdfs:comment>
+    <rdfs:label xml:lang="en">was intentionally terminated by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP52i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP53i_had_institutional_fact_initiated_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to connect the instance of speech act to the instance of group for whom it initiates the existence of a social fact through its performance.
+It serves as a shortcut for the fully developed semantic pathway, which instantiates the ZE1 Institutional Fact, in the path ZE13 Speech Act -&gt; ZP42 intentionally initiated -&gt; ZE1 Institutional Fact -&gt; ZP4 held by -&gt; E74 Group.</rdfs:comment>
+    <rdfs:label xml:lang="en">had institutional fact initiated by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP53i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP54i_is_relative_date_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to connect the instance of dating status to the instance of a period to which another instance of period is related for the purposes of datation.</rdfs:comment>
+    <rdfs:label xml:lang="en">is relative date ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP54i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP55i_is_dating_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E4_Period"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to connect the instance of dating status to an instance of a period typically associated with the existence or use of a physical thing or an object which is the ultimate object of inquiry.</rdfs:comment>
+    <rdfs:label xml:lang="en">is dating subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP55i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP56i_is_dating_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to assign the type of relationship the dated period of the object under investigation bears towards the period assigned to it as its datation.</rdfs:comment>
+    <rdfs:label xml:lang="en">is dating relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP56i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE25_Dating_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP57i_is_obligation_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate a dimension which represents an amount of debt owed from one party to another within an instance of formal obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">is obligation subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP57i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP58i_is_debtor_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate an actor whom is bound by an obligation which it is their duty to repay.</rdfs:comment>
+    <rdfs:label xml:lang="en">is debtor ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP58i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP59i_is_oglibation_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific type of obligation relation that holds between the two parties.</rdfs:comment>
+    <rdfs:label xml:lang="en">is obligation relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP59i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP60i_is_debtee_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the actor to whom an obligation is owed in the context of an obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">is debtee ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP60i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE28_Obligation_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP61i_acquired_property_right_through">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the receiver of a property right from another party within the context of a transfer of property right.</rdfs:comment>
+    <rdfs:label xml:lang="en">acquired property right through</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP61i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14i_performed" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP62i_surrendered_property_right_through">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the party ceding property right to another party within the context of a transfer of property right.</rdfs:comment>
+    <rdfs:label xml:lang="en">surrendered  property right through</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP62i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP63i_had_change_in_property_right_through">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the legal object over which property right has been transfered from one party to another.</rdfs:comment>
+    <rdfs:label xml:lang="en">had change in property right through</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP63i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE29_Transfer_of_Property_Right"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP64i_is_property_subject_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate an object that is subject to a property right of some actor.</rdfs:comment>
+    <rdfs:label xml:lang="en">is property right subject of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP64i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP1i_is_intentional_subject_of" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP65i_is_property_right_holder_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate an actor who holds a right over a legal object within the context of a property right status.</rdfs:comment>
+    <rdfs:label xml:lang="en">is property right holder ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP65i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP2i_is_intentional_target_ascribed_by" />
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP66i_is_property_right_relation_ascribed_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific type of property right relation that is held over the legal object by the actor in the context of a property right status.</rdfs:comment>
+    <rdfs:label xml:lang="en">is property right relation ascribed by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP66i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE30_Property_Right_Status"/>
+    <rdfs:subPropertyOf rdf:resource="https://takin.solutions/ontologies/crmaaa/ZP3i_is_intentional_relation_ascribed_by" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP67i_had_obligation_generated_upon_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the party who owes another party within the the context of a declaration of obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">had obligation generated upon by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP67i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE27_Declaration_of_Obligation"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14i_performed" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP68i_had_obligation_to_generated_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the party who is owed by another party within the the context of a declaration of obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">had obligation generated to by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP68i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE27_Declaration_of_Obligation"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P14i_performed" />
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP69i_is_obligation_generated_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E54_Dimension"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate the specific amount owed by one party to another within the context of a declaration of obligation.</rdfs:comment>
+    <rdfs:label xml:lang="en">is obligation generated by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP69i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE27_Declaration_of_Obligation"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP70i_is_relative_party_of">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39_Actor"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate a third party actor for whom another''s social status holds relevance (in the form of rights and/or responsibilities that are thus due to them) in the instance of social status.</rdfs:comment>
+    <rdfs:label xml:lang="en">is  relative party of</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP70i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE6_Social_Status"/>
+  </rdf:Property>
+<rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP74i_had_institutional_fact_terminated_by">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to connect the instance of speech act to the instance of group for whom it terminates the existence of a social fact through its performance.
+It serves as a shortcut for the fully developed semantic pathway, which instantiates the ZE1 Institutional Fact, in the path ZE13 Speech Act -&gt; ZP52 intentionally terminated -&gt; ZE1 Institutional Fact -&gt; ZP4 held by -&gt; E74 Group.</rdfs:comment>
+    <rdfs:label xml:lang="en">had institutional fact terminated  by</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP74i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE13_Speech_Act"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP75i_is_context_for">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate an event context which limits the temporal scope within which an instance of institutional fact is meant to hold. When indicated the event context stands as the frame in which the institutional fact is held to be valid by the associcated group for whom it has significance.</rdfs:comment>
+    <rdfs:label xml:lang="en">is context for</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP75i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://takin.solutions/ontologies/crmaaa/ZP76i_is_context_type_for">
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:comment xml:lang="en">This property is the inverse of the forward property described in the scope note that follows. This property is used to indicate an event context type which limits the spatio-temporal scope within which an instance of institutional fact is meant to hold to certain kinds of event. When indicated the event context type stands as the frame or frames in which the institutional fact is held to be valid by the associcated group for whom it has significance.</rdfs:comment>
+    <rdfs:label xml:lang="en">is context type for</rdfs:label>
+    <skos:notation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZP76i</skos:notation>
+    <rdfs:range rdf:resource="https://takin.solutions/ontologies/crmaaa/ZE1_Institutional_Fact"/>
+  </rdf:Property>
+</rdf:RDF>
