@@ -4,8 +4,8 @@ This repository exists to provide a point of access for users to download the st
 
 This repository is maintained through a collaboration between:
 
-the Swiss Art Research Infrastructure (https://www.sari.uzh.ch/en.html)
-Takin.solutions (https://takin.solutions)
+- the Swiss Art Research Infrastructure (https://www.sari.uzh.ch/en.html)
+- Takin.solutions (https://takin.solutions)
 
 CRMaaa is an extension of the CIDOC CRM standard (https://www.cidoc-crm.org) designed to support the representation of historical data not easily represented using that base standard. It introduces the key concepts of institutional fact and speech act in order to support the representation of socially grounded yet objective historical facts. For details of this modelling pattern and strategy please refer to the specification and surrounding documentation.
 
