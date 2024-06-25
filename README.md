@@ -19,6 +19,8 @@ Discussions, suggestions and queries relative to the ontology should be raised u
 In this repository users will find the different stable versions of CRMaaa which can be used for creating, managing and querying semantic data using the CIDOC CRM and CRMaaa ontologies. Each release includes at least a specification document in pdf format, explaining the ontology, and an rdfs file which enables its implementation as a semantic web ontology in rdfs supporting platforms and systems.
 
 
-This is version 1.5.1.
+This is version 1.5.4.
+
+Please note an update was issued to the serialization of CRMaaa 1.5.4 and we ask users to use the updated file CRM_AAA_V.1.5.4.1.rdf found in the Serialization folder of this repository.
 
 To explore past versions, please find the 'stable' branches.
