@@ -1,5 +1,7 @@
 ## CRM Art and Architectural Argumentation Repository Description ##
 
+### This repository is now superceded by https://github.com/swiss-art-research-net/aaao. CRMaaa has become AAAo and is developed, as of version 2.0, in the new repository. The present repository will no longer be updated. Please follow the link to the new repository to get all future updates to this ontology. ###
+
 This repository exists to provide a point of access for users to download the stable releases of the CRM Art and Architectural Argumentation ontology (CRMaaa).
 
 This repository is maintained through a collaboration between:
