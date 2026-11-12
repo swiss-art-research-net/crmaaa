@@ -1,0 +1,44 @@
+{
+  "title": "CRMaaa (CRM for Art and Architectural Argumentation) 1.5.4.2",
+  "upload_type": "dataset",
+  "version": "1.5.4.2",
+  "description": "Corrected RDFS serialization of CRMaaa 1.5.4, an extension of CIDOC CRM for representing historical research data through institutional facts and speech acts. From version 2.0 the ontology is developed as AAAo (Art and Architectural Argumentation Ontology) at https://github.com/swiss-art-research-net/aaao.",
+  "creators": [
+    {
+      "name": "Bruseker, George",
+      "orcid": "0000-0001-7519-1970",
+      "affiliation": "Takin.solutions; Swiss Art Research Infrastructure (SARI), University of Zurich"
+    },
+    {
+      "name": "Fielding, Matthew",
+      "orcid": "0009-0001-5543-1372",
+      "affiliation": "Dalhousie University"
+    },
+    {
+      "name": "Nenova, Denitsa",
+      "orcid": "0000-0003-3138-1689",
+      "affiliation": "Takin.solutions; Swiss Art Research Infrastructure (SARI), University of Zurich"
+    }
+  ],
+  "license": "cc-by-sa-4.0",
+  "keywords": [
+    "CIDOC CRM",
+    "ontology",
+    "institutional facts",
+    "speech acts",
+    "art history",
+    "architectural history",
+    "RDFS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/swiss-art-research-net/aaao",
+      "relation": "isPreviousVersionOf",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://ontome.net/project/69",
+      "relation": "isDocumentedBy"
+    }
+  ]
+}
