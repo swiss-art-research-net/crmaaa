@@ -1,6 +1,6 @@
 ## CRM Art and Architectural Argumentation Repository Description ##
 
-__This repository is now superceded by https://github.com/swiss-art-research-net/aaao. CRMaaa has become AAAo and is developed, as of version 2.0, in the new repository. The present repository will no longer be updated. Please follow the link to the new repository to get all future updates to this ontology.__
+__This repository is now superceded by https://github.com/swiss-art-research-net/aaao. CRMaaa has become AAAo and is developed, as of version 2.0, in the new repository. The present repository receives only corrections to version 1.5.4. Please follow the link to the new repository to get all future updates to this ontology.__
 
 This repository exists to provide a point of access for users to download the stable releases of the CRM Art and Architectural Argumentation ontology (CRMaaa).
 
@@ -24,6 +24,6 @@ In this repository users will find the different stable versions of CRMaaa which
 
 This is version 1.5.4.
 
-Please note an update was issued to the serialization of CRMaaa 1.5.4 and we ask users to use the updated file CRM_AAA_V.1.5.4.1.rdf found in the Serialization folder of this repository.
+The current serialization of CRMaaa 1.5.4 is CRM_AAA_v1.5.4.2.rdf (November 2026), found in the Serialization folder of this repository. It corrects the earlier files CRM_AAA_v1.5.4.rdf and CRM_AAA_v1.5.4.1.rdf, which are kept for reference; please use it in their place. The changes are listed in Serialization/CHANGES-1.5.4.2.md. The specification document is unchanged.
 
 To explore past versions, please find the 'stable' branches.
